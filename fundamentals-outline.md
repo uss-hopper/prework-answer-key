@@ -47,7 +47,7 @@ This is a website I think I would like to use(http://www.pythontutor.com/visuali
 
 
 # **Primative Operators**
-*Math Operators
+* Math Operators
 * String Operators
 
 # **Data Structures**
