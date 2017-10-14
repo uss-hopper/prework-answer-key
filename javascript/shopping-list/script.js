@@ -5,15 +5,18 @@ window.onload = function() {
 function init() {
     let form =  document.getElementById('item-form');
 
-    form.addEventListener("submit", handleItemForm);
+    form.addEventListener("submit", (e) => {
+        handleItemForm(e, form);
+    });
 }
 
-function handleItemForm(e) {
+function handleItemForm(e, form) {
     if(e.preventDefault()) {
         e.preventDefault();
     }
 
     createListItem();
+    form.reset();
 
     return false;
 }
